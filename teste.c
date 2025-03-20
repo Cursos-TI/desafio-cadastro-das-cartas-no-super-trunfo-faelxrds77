@@ -1,42 +1,49 @@
 #include <stdio.h>
-int main() {
+ 
+int main(){
+    int idade,matricula;
+    float altura;
+    char nome[50];
 
-printf("Desafio Super Trunfo - Países \n");
-printf("Carta 1 \n");
+    printf("Digite sua idade: \n");
+    scanf("%d", &idade);
 
-char estado = 'A';
-char codigo[20] = "A01";
-char cidade[30] = "São Paulo";
-int populacao = 12325000;
-float area = 152111;
-float pib = 69928;
-int tur = 50;
+    printf("Digite sua altura: \n");
+    scanf("%f", &altura);
 
-   
+    printf("Digite seu nome: \n");
+    scanf("%s", &nome);
 
+    printf("Digite sua matricula: \n");
+    scanf("%d", &matricula);
 
-    printf("Estado: %c\n", estado);
-    printf("Código da carta: %s\n", codigo);
-    printf("Nome do estado: %s\n", cidade);
-    printf("População: %d habitantes\n", populacao);
-    printf("Área: %.2f km²\n", area);
-    printf("PIB: %.2f bilhões de reais\n", pib);
-    printf("Número de pontos turísticos: %d\n", tur);
+    printf("Nome do aluno: %s\n - Matrícula: %d\n", nome, matricula);
+    printf("Idade: %d\n - Altura: %.2f\n", idade, altura);
 
-    scanf("%c\n", &estado);
-    scanf("%s\n", &codigo);
-    scanf("%s\n", &cidade);
-    scanf("%d habitantes\n", &populacao);
-    scanf("%f km²\n", &area);
-    scanf("%f bilhões de reais\n, &pib");
-    scanf("%d\n", &tur);
+    int idade,matricula;
+    float altura;
+    char nome[50];
 
-    
-    
+    printf("Digite sua idade: \n");
+    scanf("%d", &idade);
 
-return 0;
+    printf("Digite sua altura: \n");
+    scanf("%f", &altura);
+
+    printf("Digite seu nome: \n");
+    scanf("%s", &nome);
+
+    printf("Digite sua matricula: \n");
+    scanf("%d", &matricula);
+
+    printf("Nome do aluno: %s\n - Matrícula: %d\n", nome, matricula);
+    printf("Idade: %d\n - Altura: %.2f\n", idade, altura);
+
+    return 0;
 
 }
+
+ 8
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
