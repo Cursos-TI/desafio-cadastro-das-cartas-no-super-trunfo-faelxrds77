@@ -45,6 +45,12 @@ int main() {
     printf("Área: %.2f km²\n"); 
     scanf("%f", &area);
 
+    printf("PIB: %.2f bilhões de reais\n"); 
+    scanf("%f" , &pib);
+
+    
+
+
     
 
 
