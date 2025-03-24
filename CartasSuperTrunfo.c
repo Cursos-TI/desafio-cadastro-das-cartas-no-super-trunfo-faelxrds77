@@ -18,5 +18,38 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+    printf("Desafio Cartas Super Trunfo!\n");
+
+    char estado;
+    char codigo[4]; 
+    char cidade[30]; 
+    int populacao; 
+    float area; 
+    float pib; 
+    int tur;
+
+    printf("Carta 1\n");
+
+    printf("Estado: \n");
+    scanf("%c", &estado);
+
+    printf("Código da carta: \n");
+    scanf("%s", &codigo);
+    
+    printf("Nome do estado: \n"); 
+    scanf("%s", &cidade);
+
+    printf("População: \n");
+    scanf("%d", &populacao);
+
+    printf("Área: %.2f km²\n"); 
+    scanf("%f", &area);
+
+    
+
+
+
+
+
     return 0;
 }
