@@ -20,7 +20,7 @@ int main() {
 
     printf("Desafio Cartas Super Trunfo!\n");
 
-    char estado;
+    char estado1, estado2;
     char codigo[4]; 
     char cidade[30]; 
     int populacao; 
@@ -30,25 +30,32 @@ int main() {
 
     printf("Carta 1\n");
 
-    printf("Estado: \n");
-    scanf("%c", &estado);
+    printf("Digite o estado da carta 1: \n");
+    scanf("%c", &estado1);
 
-    printf("Código da carta: \n");
+    printf("Digite o código da carta 1: \n");
     scanf("%s", &codigo);
     
-    printf("Nome do estado: \n"); 
+    printf("Digite o nome da cidade da carta 1: \n"); 
     scanf("%s", &cidade);
 
-    printf("População: \n");
+    printf("Digite a população da carta 1: \n");
     scanf("%d", &populacao);
 
-    printf("Área: %.2f km²\n"); 
+    printf("Digite a área em km² da carta 1: \n"); 
     scanf("%f", &area);
 
-    printf("PIB: %.2f bilhões de reais\n"); 
-    scanf("%f" , &pib);
+    printf("Digite o PIB da carta 1: \n"); 
+    scanf("%f", &pib);
 
-    
+    printf("Digite o número de pontos turísticos da carta 1: \n");
+    scanf("%d", &tur);
+
+    printf("Carta 2 \n");
+
+    printf("Digite o estado da carta 2: \n");
+    scanf("%c", &estado2);
+
 
 
     
